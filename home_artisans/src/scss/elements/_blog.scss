@@ -1,0 +1,44 @@
+.blog__header {
+    width: 90vw;
+    margin: 0 5vw;
+	min-height: 250px;
+}
+.blog__quote {
+	text-align: center;
+	margin: 100px auto 100px auto;
+	padding: 0 10px;
+	max-width: 600px;
+	font-size: 25px;
+
+	.quote__color {
+		color: $sixth-color;
+	}
+}
+.blog__filters{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    
+
+    .blog__filters__link{
+        text-decoration: none;
+        color: $font-color;
+        font-size: 15px;
+        margin-right: 20px;
+
+        &:visited{
+            color: $font-color;
+        }
+        &.blog__all{
+            color: $sixth-color;
+        }
+        
+    }
+    
+
+}
+.blog__blogs{
+    width: 90vw;
+    margin: 0 5vw;
+
+}

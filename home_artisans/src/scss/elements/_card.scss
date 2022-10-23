@@ -1,0 +1,138 @@
+.card__container{
+    min-height: 80vh;
+    display: flex;
+}
+.card__details{
+    width: 60vw;
+    padding-right: 50px;
+    padding-left: 5vw;
+    background-color: $third-color;
+    
+}
+.card__title__log{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    .card__title{
+        font-size: 30px;
+    }
+    .card__log__account{
+        font-size: 13px;
+    }
+    .card__log__link{
+        text-decoration: none;
+        color: $font-color;
+        font-weight: bold;
+    }
+}
+.card__form{
+    width: 100%;
+}
+.card__input__link{
+    border: none;
+    background-color: $third-color;
+    border-bottom: 2px solid rgb(136, 136, 136);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-family: $primary-font;
+    font-size: 15px;
+
+    &::placeholder{
+        font-size: 12px;
+        font-family: $primary-font;
+    }
+
+    &[placeholder="first name *"]{
+        min-width: 23vw;
+        margin-right: 2vw;
+    }
+    &[placeholder="last name *"]{
+        min-width: 23vw;
+    }
+    &[placeholder="phone *"]{
+        min-width: 23vw;
+        margin-right: 2vw;
+    }
+    &[placeholder="e-mail *"]{
+        min-width: 23vw;
+    }
+    &[placeholder="adress *"]{
+        min-width: calc(48vw + 4px);
+    }
+    &[placeholder="city *"]{
+        min-width: 14vw;
+    }
+    &[placeholder="zip-code"]{
+        min-width: 14vw;
+    }
+}
+.card__select{
+    border: none;
+    background-color: $third-color;
+    font-family: $primary-font;
+    color: rgb(136, 136, 136);
+    border-bottom:2px solid rgb(136, 136, 136);
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin: 0 3vw;
+    width: 14vw;
+
+}
+.card__checkbox{
+   label{
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgb(136, 136, 136); 
+   }
+}
+.card__order__container{
+    width: 34vw;
+    margin:0 5vw 30px 3vw;
+}
+.card__title__order{
+    font-size: 30px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    border-bottom:2px solid rgb(136, 136, 136);
+}
+.card__price__container{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.card__checkbox__conditions{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .card__conditions{
+        font-family: $primary-font;
+        color: rgb(136, 136, 136);
+        font-size: 12px;
+
+        a{
+            text-decoration: none;
+            color: rgb(136, 136, 136);
+        }
+    }
+}
+.place__order__btn{
+    width: 100%;
+    height: 50px;
+    background-color: $font-color;
+    color:$primary-color;
+    font-family: $primary-font;
+    border:none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+
+        &:hover{
+            background-color: #787c79;
+            }
+
+
+}

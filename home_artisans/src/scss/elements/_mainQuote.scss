@@ -1,0 +1,33 @@
+.main__quote__container {
+	min-height: 60vh;
+	width: 90vw;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 40px;
+	margin: 0 auto;
+}
+.main__quote {
+	font-size: 40px;
+	margin: auto 10vw;
+    text-align: center;
+}
+.quote__author {
+    display:inline-block;
+	font-size: 20px;
+	margin:10px;
+}
+@media (max-width: 800px){
+    .main__quote{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .main__quote{
+        font-size: 22px;
+    }
+    .quote__author {
+        font-size: 15px;
+    }
+}

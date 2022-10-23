@@ -1,0 +1,48 @@
+.blogHome__container {
+	margin: 10% 20%;
+}
+
+.blogHome__carousel {
+	cursor: grab;
+	overflow: hidden;
+	background-color: #4e534f; // sprawdzić kolor
+	color: $primary-color;
+	height: 500px;
+}
+
+.blogHome__carousel__inner {
+	display: flex;
+}
+.blogHome__carousel__title {
+	font-size: 20px;
+	padding: 40px 0 20px 50px;
+}
+.blog__carousel {
+	min-height: 25rem;
+	min-width: 15rem;
+	padding: 20px;
+}
+.blog__carousel__img {
+	width: 100%;
+	height: 80%;
+	border-radius: 10px;
+	pointer-events: none;
+}
+.blog__carousel__section {
+	margin: 10px 0;
+	color: $sixth-color;
+	font-size: 12px;
+	.blog__carousel__addDate {
+		font-weight: normal;
+		font-family: $primary-font;
+		color: $primary-color;
+		margin: 0 10px;
+	}
+}
+.blog__carousel__title {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: $primary-color;
+	font-family: $second-font;
+	font-weight: 400;
+}

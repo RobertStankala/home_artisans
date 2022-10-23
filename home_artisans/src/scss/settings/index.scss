@@ -1,0 +1,9 @@
+@import "fonts";
+@import "colors";
+@import "mixins";
+
+body {
+    background-color: $primary-color;
+    font-family: $primary-font;
+    color: $font-color;
+}

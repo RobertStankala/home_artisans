@@ -1,0 +1,115 @@
+.account__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 85vh;
+}
+.account__main__box {
+	display: flex;
+	max-width: 60vw;
+	height: 60vh;
+	border-radius: 20px;
+	background: #f4f4f4;
+	box-shadow: 20px 20px 41px #d9d9d9, -20px -20px 41px #ffffff;
+}
+.account__left__section {
+	width: 20vw;
+	color: $font-color;
+	text-align: center;
+	margin: auto 0;
+
+	.left__account__section__title {
+		font-size: 25px;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+	}
+	.left__account__section__desc {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		font-size: 12px;
+	}
+	.singIn__btn {
+		width: 150px;
+		height: 40px;
+		border: none;
+		color: $primary-color;
+		background-color: $font-color;
+		border-radius: 5px;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            background-color: #787c79;
+            }
+	}
+}
+.account__right__section {
+	width: 40vw;
+	border-radius: 0 50px 50px 0;
+	background: #f4f4f4;
+	box-shadow: -20px -20px 41px #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.socials__links{
+    margin-right: 10px;
+
+    img{
+    width: 18px;
+    height: 18px;
+    }
+}
+.account__right__section__container {
+	color: $font-color;
+	text-align: center;
+
+	.right__account__section__title {
+		font-size: 25px;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+	}
+	.right__section__socials {
+		margin-bottom: 30px;
+	}
+	.right__section__info {
+		margin: 0 auto;
+		margin-bottom: 40px;
+		font-size: 12px;
+	}
+	.right__section__inputs {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin-bottom: 20px;
+	}
+	.right__section__input {
+		height: 25px;
+		font-size: 14px;
+        font-family: $primary-font;
+		border: none;
+        padding: 5px 0;
+		background: $primary-color;
+        border-bottom: 1px solid rgb(175, 173, 173);
+		// border-radius: 5px;
+		// box-shadow: inset 4px 4px 5px #dedede, inset -4px -4px 5px #ffffff;
+
+		&::placeholder {
+			font-size: 12px;
+		}
+	}
+	.singUp__btn {
+		width: 150px;
+		height: 40px;
+		border: none;
+		color: $primary-color;
+		background-color: $font-color;
+		border-radius: 5px;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+		background-color: #787c79;
+        }
+	}
+}

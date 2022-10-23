@@ -1,0 +1,46 @@
+.about__container {
+}
+.about__img {
+	background-image: url("./src/assets/aboutImg2.jpg");
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+    z-index: -1;
+}
+.about__name {
+	color: $sixth-color;
+	text-shadow: 1px 1px 1px black;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.about__quote {
+	text-align: center;
+	margin: 100px auto;
+	padding: 0 10px;
+	max-width: 680px;
+	font-size: 25px;
+
+	.about__accent {
+		color: $sixth-color;
+	}
+}
+
+@media (max-width: 600px){
+    .about__img{
+        height: 70vh;
+    }
+    .about__name{
+        font-size: 20px;
+    }
+    .about__quote{
+        font-size: 20px;
+    }
+}

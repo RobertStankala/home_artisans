@@ -1,0 +1,63 @@
+.shop__container{
+    width: 90vw;
+    margin: 0 5vw;
+}
+.shop__quote {
+	margin: 100px auto;
+    display: flex;
+    justify-content: center;
+
+	.quote {
+		text-align:center;
+		font-size: 25px;
+		max-width: 600px;
+
+		.quote__accent {
+			color: $sixth-color;
+		}
+	}
+}
+.shop__filters{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+
+    .shop__filters__left{
+        width: 200px;
+        color: $font-color;
+        text-decoration:none;
+        
+        a:first-child{
+            padding-right: 2vw;
+            color: $sixth-color;
+        }
+    }
+
+    .shop__filters__right{
+
+
+        a:nth-child(2){
+            padding:0 2vw;
+        }
+    }
+    .shop__filters__link{
+        text-decoration: none;
+        color: $font-color;
+
+        &:visited{
+            color: $font-color;
+        }
+    }
+}
+
+
+// układ robić GRID'em
+.shop__all__products {
+    max-width: 90vw;
+    margin: 0 auto;
+   
+}
