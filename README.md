@@ -1,5 +1,13 @@
 # home_artisans
 
+Used technologies:
+  
+  - HTML5
+  - SASS
+  - JSON server
+  - React js
+  
+
 Home page:
 
 ![Home_Page](https://user-images.githubusercontent.com/102159340/212386669-2ce2e4a6-46a1-4a75-976e-301d5d553de2.png)
