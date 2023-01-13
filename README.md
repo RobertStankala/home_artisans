@@ -1,4 +1,4 @@
-# home_artisans
+# home_artisans ( RWD )
 
 Used technologies:
   
@@ -8,7 +8,7 @@ Used technologies:
   - React js
   
 
-Home page:
+Home page ( Desktop ):
 
 ![Home_Page](https://user-images.githubusercontent.com/102159340/212386669-2ce2e4a6-46a1-4a75-976e-301d5d553de2.png)
 
@@ -23,7 +23,6 @@ Shop:
 Single product:
 
 ![Single_Product](https://user-images.githubusercontent.com/102159340/212387022-bb0a3d07-00cd-4fe0-9695-7f7b5e105846.png)
-
 
 Blog:
 
@@ -40,3 +39,13 @@ Account:
 Card:
 
 ![Card](https://user-images.githubusercontent.com/102159340/212386616-217db881-2cd3-44d4-9916-2ec82de7eccf.png)
+
+Home page ( Mobile ):
+
+![mobile artisans1](https://user-images.githubusercontent.com/102159340/212399627-d1ae47b0-37cb-45c9-9a53-68a76b61be44.png)
+
+Hamburger ( Mobile ):
+
+![mobile hamburger](https://user-images.githubusercontent.com/102159340/212397750-672a8059-04f6-4f99-8c76-4f3cc593e922.png)
+
+
